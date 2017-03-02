@@ -1,0 +1,17 @@
+class Keeper
+
+def alternate
+end
+
+def keep3
+
+list = [a1, b2, c3, d4, e5, f6, g7]
+$i = 0
+
+keep3 = Array.new
+
+until $i > list.length
+if $i%3==0
+
+
+end
