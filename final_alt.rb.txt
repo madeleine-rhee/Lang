@@ -1,0 +1,41 @@
+#!/usr/bin/ruby
+
+class Alternate
+
+def initialize(n = nil, one = nil, two = nil, tri = nil)
+@n = n
+@one = one
+@two = two
+@tri = tri
+end
+
+def alternator(n, one, two, tri)
+list = Array.new
+$i = 0
+num = n
+
+until $i > num do
+if $i==0
+list.insert($i, one)
+$i+=2;
+elsif $i%2==0
+list.insert($i, two)
+$i +=1;
+elsif $i%3==0
+list.insert($i, tri)
+$i +=1;
+else
+list.insert($i, one)
+$i +=1;
+end
+end
+print "#{list.join(", ")}"
+end
+
+end
+
+
+if __FILE__ == $0
+  alt = Alternate.new(5, "hi", "no", "way")
+  alt.alternator(5, "hi", "no", "way")
+end
