@@ -1,0 +1,90 @@
+#!/usr/bin/ruby
+
+class Reverse
+
+def initialise
+end
+
+def create
+$num = 5
+listA = Array.new(num, a)
+
+//for the first number following A
+//$first = 0
+//until $first > num do
+//for listA to listA6, listA7, ...
+
+listA6 = listA.each{join(6)}
+//listA$first = listA.each{join($first)}
+
+$i = 0
+until $i > num do
+listA6.insert($i, #{listA6.join("$i")})
+//listA%first.insert($i, #{listA6.join("$i")})
+
+//repeat
+//end for list of A
+
+listAout = [listA6, listA7, listA8, listA9]
+
+listB = Array.new(num, b)
+
+//for the first number following B
+//$first = 0
+//until $first > num do
+//for listB to listB6, listB7, ...
+
+listB6 = listB.each{join(6)}
+//listA$first = listB.each{join($first)}
+
+$i = 0
+until $i > num do
+listB6.insert($i, #{listB6.join("$i")})
+//listB%first.insert($i, #{listB6.join("$i")})
+
+//repeat
+//end for list of B
+
+listBout = [listB6, listB7, listB8, listB9]
+
+listC = Array.new(num, c)
+
+//for the first number following C
+//$first = 0
+//until $first > num do
+//for listC to listC6, listC7, ...
+
+listC6 = listC.each{join(6)}
+//listC$first = listC.each{join($first)}
+
+$i = 0
+until $i > num do
+listC6.insert($i, #{listC6.join("$i")})
+//listC%first.insert($i, #{listC6.join("$i")})
+
+//repeat
+//end for list of C
+listCout = [listC6, listC7, listC8, listC9]
+
+
+
+
+
+
+
+
+listAout.reverse_each { |a| str += "#{a} " }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
