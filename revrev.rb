@@ -1,8 +1,9 @@
 #!/usr/bin/ruby
 
 class Reverse
+#create class
 
-
+#define function
 def reverse_inner(outer_list)
   tryme = outer_list.map { |middle_list|
     middle_list.map { |inner_list|
@@ -10,11 +11,20 @@ def reverse_inner(outer_list)
     }
   }
 
+#tryme stores the results of the reverse
+#go into the outer list, take each element (the middle lists)
+#then go into each middle list, take each element (the inner lists)
+#reverse each inner list
+#that's it, don't flip the outer or middle lists
+
 print tryme
+print "\n"
+print "\n"
 
 end
-
+#reverse_inner
 end
+#class
 
 if __FILE__ == $0
 
